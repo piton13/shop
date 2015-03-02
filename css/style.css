@@ -228,7 +228,7 @@ header .right a {
 }
 .carousel-inner .item a:hover {
 	border-bottom: none;
-	border-top: 2px solid #f6f3ec;
+	/*border-top: 2px solid #f6f3ec;*/
 }
 /*--------------------------GLYPHICONS-------------GLYPHICONS---------------------*/
 /*.carousel-control .glyphicon-chevron-left,
@@ -271,7 +271,7 @@ header .right a {
 	padding: 0;
 }
 .carousel-caption h1:first-of-type {
-	border-top: 1px solid #78645d;
+	/*border-top: 1px solid #78645d;*/
 	margin-bottom: 2px;
 	padding-top: 17px;
 }
@@ -292,9 +292,10 @@ header .right a {
 	font-size: 26px;
 	font-family: luxury_royale_jfregular;
 	position: absolute;
+	z-index: 10;
 	top: 3px;
 	left: 44%;
-	background: #f6f3ec;
+	/*background: #f6f3ec;*/
 	padding: 5px;
 }
 /*----------INDICATORS-----------INDICATORS------------INDICATORS-----------------*/
